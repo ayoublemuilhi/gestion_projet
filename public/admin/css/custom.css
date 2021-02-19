@@ -1,0 +1,188 @@
+body,html{
+    font-family: 'Montserrat', sans-serif;
+}
+/***********************************************header***************************/
+.navbar-white{
+    background-color:#2D2A2E !important;
+}
+.navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .nav-link:hover{
+    color:#FCFCFA ;
+
+}
+.logout{
+    color:#553D39 !important;
+    background-color: #FFD866;
+}
+
+/***********************************************sidebar***************************/
+
+
+.layout-fixed .main-sidebar{
+    background-color:#232025 !important;
+    box-shadow: 2px 0px 5px 0px #211f23 !important;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active{
+    background-color: #FFD866;
+    color:#553D39 ;
+}
+
+[class*=sidebar-dark-] .nav-sidebar>.nav-item.menu-open>.nav-link,
+[class*=sidebar-dark-] .nav-sidebar>.nav-item:hover>.nav-link, [class*=sidebar-dark-]
+.nav-sidebar>.nav-item>.nav-link:focus{
+    color:#553D39 ;
+    background-color: #FFD866;
+}
+[class*=sidebar-dark-] .sidebar a{
+    color:#FCFCFA ;
+}
+
+/*********************************** Profile **************************************/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #232025;
+
+}
+.card-primary.card-outline {
+    border-top: 3px solid  #553D39;
+}
+.profile-user-img{
+    margin: 25px;
+}
+.card{
+    box-shadow: 1px 18px 9px rgb(39 35 35 / 13%), 0 1px 3px rgba(0,0,0,.2);
+}
+/******************************** TAG CSS FOR ALL ***************************/
+a{
+    color:#553D39 ;
+}
+.error,.success{
+    padding: 20px;
+    color: white;
+    opacity: 0.97;
+}
+.alert-error {
+    background-color: #f44336;
+    box-shadow: 1px 1px 9px #f44336;
+  }
+  .alert-success {
+    background-color: #6BBD6E;
+    box-shadow: 1px 1px 9px  #6BBD6E;
+  }
+.closebtn {
+    margin-left: 15px;
+    color: #FCFCFA;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .closebtn:hover {
+    color: #FCFCFA;
+  }
+  .btn_submit{
+    color: #FCFCFA !important;
+    background-color: #232025;
+    border-color: #232025;
+    border: 0;
+    outline: 0;
+    padding: 5px 21px;
+    box-shadow: 1px 1px 4px  #232025;
+    background: linear-gradient( #131f13, #8e7a3f);
+  }
+  .btn_add_edit{
+    background-color: #6BBD6E;
+    border-color: #6BBD6E;
+  }
+  .badge-success{
+      box-shadow: 1px 1px 2px #28a745;
+  }
+
+  /***************************************** Projet Et User *******************************************/
+  .design1{
+    background-color: #FFD866;
+    margin-left: 10px;
+    display: inline-block;
+    width: 17px;
+    height:  17px;
+    border-radius: 50%;
+  }
+  .design2{
+    background-color:  #6BBD6E;
+    margin-left: 10px;
+    display: inline-block;
+    width: 17px;
+    height:  17px;
+    border-radius: 50%;
+  }
+  .design3{
+    background-color:#553D39;
+    margin-left: 10px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+  }
+
+/***************************************** view  User modal *******************************************/
+.modal-body{
+    padding: 0;
+}
+.card{
+
+    height: 100%;
+
+}
+.img1 img{
+    height: 200px;
+    width: 100%;
+}
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border:7px solid #fff;
+    margin-top: -80px;
+
+}
+.card:hover .img2 img{
+    border-color: #23272b;
+    transition: .7s;
+}
+.main-text{
+    padding: 30px 30px;
+
+}
+
+#modal_css{
+    color: black !important;
+    font-weight: bold;
+}
+
+/*************************************** archive ***********************************************/
+.archive{
+    margin: 11px;
+}
+.archive  a{
+
+    padding: .5rem 1rem;
+    transition:all 0.5s ease;
+    border-radius: 10px;
+    color: #212529;
+
+}
+
+.archive a:hover{
+    background-color: #212529;
+    color: #fff;
+}
+.marge_archive{    margin-bottom: 10px;}
+
+.badge_archive{background-color: #d6dde4}
